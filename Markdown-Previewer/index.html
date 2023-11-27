@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" /> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <title>A Markdown Previewer</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Markdown Previewer</title>
+
     <script>
       function updatePreview() {
         //updating the marked text in editor to plain text in preview
@@ -15,39 +15,39 @@
       function setDefault() {
       	//setting default text on window load up
         let defaultText = `\
-            # freecodecamp Solutions:
-            ## Build a markdown previewer
-            [Learn more about the freecodecamp.org project](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-drum-machine).
+# freecodecamp Solutions:
+## Build a markdown previewer
+[Learn more about the freecodecamp.org project](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-drum-machine).
 
-            <dl>
-            <dt>Definition list</dt>
-            <dd>Is something people use sometimes.</dd>
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
 
-            <dt>Markdown in HTML</dt>
-            <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-            </dl>
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
 
-            \`This is an example of inline code\`
+\`This is an example of inline code\`
 
-            \`\`\`
-            function exampleOf() {
-            return multiLineCodeBlock;
-            }
-            \`\`\`
+\`\`\`
+function exampleOf() {
+  return multiLineCodeBlock;
+}
+\`\`\`
 
-            - This
-            - is
-            - an
-            - example
-            - of
-            - list
-            - items
+- This
+- is
+- an
+- example
+- of
+- list
+- items
 
-            > This is an example of block quote
+> This is an example of block quote
 
-            ![freecodecamp](https://upload.wikimedia.org/wikipedia/commons/3/39/FreeCodeCamp_logo.png)
+![freecodecamp](https://upload.wikimedia.org/wikipedia/commons/3/39/FreeCodeCamp_logo.png)
 
-            **This is an example of Bolded Text**`;
+**This is an example of Bolded Text**`;
 
         document.getElementById("editor").value = defaultText;
         document.getElementById("preview").innerHTML = marked(defaultText)}
@@ -77,7 +77,8 @@
 
     <!-- Freecodecamp JavaScript -->
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <!-- Importing Marked Library -->
-    <script src="script.js" type="module"></script>
+    
+    <!-- Importing Markdown Library -->
+    <script src="script.js"></script>
   </body>
 </html>
