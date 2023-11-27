@@ -1,0 +1,46 @@
+#ctn{
+    padding: 50px 150px;
+    background-color: #AF0B27;
+    height: 100vh;
+    animation: colorCycle 20s ease;
+  }
+  @keyframes colorCycle {
+    0%, 100% {
+      background-color:  #AF0B27;
+    }
+    10% {
+      background-color: #BD534C;
+    }
+    20% {
+      background-color: #FFC68C;
+    }
+    30% {
+      background-color: #BE9553;
+    }
+    40% {
+      background-color: #1B5E3C;
+    }
+    50% {
+      background-color: #6722BD;
+    }
+    60% {
+      background-color: #4E023C;
+    }
+    70% {
+      background-color: #AB185A;
+    }
+    80% {
+      background-color: #3B1E1A;
+    }
+    90% {
+      background-color: #566677;
+    }
+  }
+  @keyframes colors{
+    from{
+      background-color: #AF0B27;
+    }
+    to{
+      background-color:#DAAB6E;
+    }
+  }
