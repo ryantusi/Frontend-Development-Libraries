@@ -1,0 +1,13 @@
+body {
+    background-color: #33A6B8;
+}
+#editor {
+  overflow: scroll;
+}
+#preview {
+    overflow: scroll;
+}
+.heads {
+    color: peru;
+    font-family: Georgia !important;
+}
