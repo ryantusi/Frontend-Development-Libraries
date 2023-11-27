@@ -1,0 +1,27 @@
+body {
+    background-color: #e4f1ee !important;
+  }
+  h1 {
+    font-family: Poppins;
+  }
+  #display {
+    background-color: #d9edf8;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .btn1 {
+    background-color: #184a45ff !important;
+    color: ivory !important;
+    height: 100px;
+  }
+  .btn2 {
+    background-color: #b0b8b4ff !important;
+    color: ivory !important;
+    height: 100px;
+  }
+  .btn3 {
+    background-color: #fc766aff !important;
+    color: ivory !important;
+    height: 100px;
+  }

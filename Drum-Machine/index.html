@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Build a Drum Machine</title>
+  </head>
+  <body>
+    <div class="container" id="drum-machine">
+      <h1 class="text-center">A Drum Machine</h1>
+      <div class="card my-3">
+        <div class="card-body">
+          <div class="text-center" id="display">Click a button to play!</div>
+        </div>
+      </div>
+      <div class="align-items-center text-center">
+      <button class="drum-pad btn col-3 btn1" id="drum-0" onclick="play('Q')">
+        Q
+        <audio src="https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3" class="clip" id="Q">
+      </button>
+      <button class="drum-pad btn col-3 btn2" id="drum-1" onclick="play('W')">
+        W
+        <audio src="https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3" class="clip" id="W">
+      </button>
+      <button class="drum-pad btn col-3 btn1" id="drum-2" onclick="play('E')">
+        E
+        <audio src="https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3" class="clip" id="E">
+      </button>
+      </div>
+      <br>
+
+      <div class="text-center">
+      <button class="drum-pad btn col-3 btn2" id="drum-3" onclick="play('A')">
+        A
+        <audio src="https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3" class="clip" id="A">
+      </button>
+      <button class="drum-pad btn col-3 btn3" id="drum-4" onclick="play('S')">
+        S
+        <audio src="https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3" class="clip" id="S">
+      </button>
+      <button class="drum-pad btn col-3 btn2" id="drum-5" onclick="play('D')">
+        D
+        <audio src="https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3" class="clip" id="D">
+      </button>
+      </div>
+      <br>
+
+      <div class="text-center">
+      <button class="drum-pad btn col-3 btn1" id="drum-6" onclick="play('Z')">
+        Z
+        <audio src="https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3" class="clip" id="Z">
+      </button>
+      <button class="drum-pad btn col-3 btn2" id="drum-7" onclick="play('X')">
+        X
+        <audio src="https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3" class="clip" id="X">
+      </button>
+      <button class="drum-pad btn col-3 btn1" id="drum-8" onclick="play('C')">
+        C
+        <audio src="https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3" class="clip" id="C">
+      </button>
+    </div>
+    </div>
+
+    <!-- Bootstrap Package -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <!-- Importing Javascript-->
+    <script src="script.js"></script>
+  </body>
+</html>
