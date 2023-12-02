@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 let countDown;
 class Clock extends React.Component {
   constructor(props) {
